@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClarityRocks®</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1><span style="color: #F04E23;">ClarityRocks®</span></h1>
+
+  <form id="rockForm">
+    <input id="rock" placeholder="Build a pile of rocks" required />
+    <br /><br />
+    <select id="role">
+      <option value="Visionary">Visionary™</option>
+      <option value="Integrator">Integrator™</option>
+      <option value="Team">Leadership Team</option>
+    </select>
+    <br /><br />
+    <label>
+      <input type="checkbox" id="includeMilestones" checked />
+      Include Milestones
+    </label>
+    <br /><br />
+    <button type="submit" style="background-color: #FF7900; color: white; padding: 12px 24px; border: none; font-weight: bold;">
+      Generate SMART Rock™
+    </button>
+  </form>
+
+  <div id="loader" style="display:none; margin-top: 1em;">Thinking...</div>
+  <div id="result" style="margin-top: 2em;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

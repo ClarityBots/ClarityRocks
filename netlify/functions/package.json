@@ -1,0 +1,9 @@
+{
+  "name": "clarityrocks-function",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "clarityrocks.js",
+  "dependencies": {
+    "openai": "^4.30.0"
+  }
+}

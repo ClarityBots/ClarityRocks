@@ -1,0 +1,11 @@
+{
+  "name": "clarityrocks-site",
+  "version": "1.0.0",
+  "description": "Frontend for ClarityRocks",
+  "type": "module",
+  "scripts": {
+    "start": "npx netlify dev"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
