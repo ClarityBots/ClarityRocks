@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClarityRocks</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>ClarityRocks</h1>
+    <p class="tagline">Let’s write <span class="smart">SMART Rocks</span> that actually get done.</p>
+
+    <textarea id="prompt" placeholder="Build a yard cleanup and maintenance plan for the kids."></textarea>
+    <button id="generate-button">Generate SMART Rock</button>
+
+    <div id="output" class="output"></div>
+
+    <div class="framework">
+      <h2><strong>SMART Framework</strong></h2>
+      <ul>
+        <li><strong>1. Specific:</strong> Clear and unambiguous goal.</li>
+        <li><strong>2. Measurable:</strong> You can track progress.</li>
+        <li><strong>3. Achievable:</strong> Realistic and doable.</li>
+        <li><strong>4. Relevant:</strong> Important to your business.</li>
+        <li><strong>5. Time-bound:</strong> Has a deadline.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Safe placement at the end so DOM is ready -->
+  <script src="script.js"></script>
+</body>
+</html>
